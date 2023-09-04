@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0764BFA2AA662120044E013 /* ExamplePathMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0764BF92AA662120044E013 /* ExamplePathMonitor.swift */; };
 		A0B46BB32A6B08FF00CEB5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B46BB22A6B08FF00CEB5FC /* AppDelegate.swift */; };
 		A0B46BB52A6B08FF00CEB5FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B46BB42A6B08FF00CEB5FC /* SceneDelegate.swift */; };
 		A0B46BB72A6B08FF00CEB5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B46BB62A6B08FF00CEB5FC /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0764BF92AA662120044E013 /* ExamplePathMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePathMonitor.swift; sourceTree = "<group>"; };
 		A0B46BB02A6B08FF00CEB5FC /* UIKitCaseStudies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCaseStudies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B46BB22A6B08FF00CEB5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B46BB42A6B08FF00CEB5FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0764BF62AA661CE0044E013 /* NWPathMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				A0764BF92AA662120044E013 /* ExamplePathMonitor.swift */,
+			);
+			path = NWPathMonitor;
+			sourceTree = "<group>";
+		};
 		A0B46B752A6B086600CEB5FC = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 				A0B46BF62A6B096800CEB5FC /* SwiftUICaseStudiesTests */,
 				A0B46C002A6B096B00CEB5FC /* SwiftUICaseStudiesUITests */,
 				A0B46B7F2A6B086600CEB5FC /* Products */,
+				A0F4BD6C2A7824E10081BEB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +201,7 @@
 		A0B46BE52A6B095A00CEB5FC /* SwiftUICaseStudies */ = {
 			isa = PBXGroup;
 			children = (
+				A0764BF62AA661CE0044E013 /* NWPathMonitor */,
 				A0B46BE62A6B095A00CEB5FC /* SwiftUICaseStudiesApp.swift */,
 				A0B46BE82A6B095A00CEB5FC /* ContentView.swift */,
 				A0B46BEA2A6B096300CEB5FC /* Assets.xcassets */,
@@ -223,6 +235,13 @@
 			path = SwiftUICaseStudiesUITests;
 			sourceTree = "<group>";
 		};
+		A0F4BD6C2A7824E10081BEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +258,8 @@
 			dependencies = (
 			);
 			name = UIKitCaseStudies;
+			packageProductDependencies = (
+			);
 			productName = UIKitCaseStudies;
 			productReference = A0B46BB02A6B08FF00CEB5FC /* UIKitCaseStudies.app */;
 			productType = "com.apple.product-type.application";
@@ -473,6 +494,7 @@
 			files = (
 				A0B46BE92A6B095A00CEB5FC /* ContentView.swift in Sources */,
 				A0B46BE72A6B095A00CEB5FC /* SwiftUICaseStudiesApp.swift in Sources */,
+				A0764BFA2AA662120044E013 /* ExamplePathMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
